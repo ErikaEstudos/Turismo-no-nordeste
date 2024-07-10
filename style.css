@@ -1,0 +1,42 @@
+body {
+    background-color: #bebe8a;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+    background-color: #20201b;
+    color: #edf3f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 10px 20px;
+}
+.logo {
+    height: 60px;
+    margin-top: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-top: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+h1, h2, h3, p{
+    margin-left: 20px;
+}
+
+.imagem {
+    width: 30%;
+    margin-left: 20px;
+    
+}
